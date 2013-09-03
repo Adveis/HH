@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HHActivity" >
+
+    <EditText
+        android:id="@+id/DOF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/FIO"
+        android:layout_below="@+id/FIO"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/DOF"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/Prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/DOF"
+        android:layout_below="@+id/DOF"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/Prof"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/Salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Prof"
+        android:layout_below="@+id/sex"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/salary"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Prof"
+        android:layout_below="@+id/Prof" 
+        android:entries="@array/Pol"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Salary"
+        android:layout_below="@+id/Salary"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Button"
+         android:onClick="onClick" />
+
+    <EditText
+        android:id="@+id/FIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="@string/FIO"
+        android:inputType="textCapWords" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HH</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="FIO">Full name</string>
+	<string name="DOF">Date of birth</string>
+	<string name="email">e-mail address</string>
+	<string name="salary">Desired Salary (in figures)</string>
+	<string name="letter">Full name</string>
+	<string name="Prof">desired Position</string>
+	<string name="phone">Contact phone</string>
+	<string name="Button">></string>
+	<string name="Button1">Send</string>
+	<string-array name="Pol">
+    <item>male</item>
+    <item>female</item>
+	</string-array>
+	
+</resources>
